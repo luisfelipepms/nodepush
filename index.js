@@ -16,4 +16,4 @@ const fetchData = async () => {
 fetchData();
 
 // Set interval to call fetchData every 5 minutes (300,000 milliseconds)
-setInterval(fetchData, 300000);
+setInterval(fetchData, 100000);
